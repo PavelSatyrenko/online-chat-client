@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "online-chat-fcde9"
+  },
+  "targets": {
+    "online-chat-fcde9": {
+      "hosting": {
+        "WebSocket": [
+          "online-chat-fcde9"
+        ]
+      }
+    }
+  }
+}

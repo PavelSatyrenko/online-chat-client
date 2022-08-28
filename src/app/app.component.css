@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*__Main styles__*/
+
+/* Card */
+
+.card {
+    width: 70%;
+    max-height: calc(100vh - 64px);
+    margin: 32px auto;
+    padding: 24px 32px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Input, Button */
+
+input,
+button {
+    margin-top: 8px;
+    padding: 14px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+}
+
+button {
+    background-color: #0762FF;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input {
+    margin-right: 2%;
+    background: #F1F6FE;
+}
+
+.footer input {
+    width: 80%;
+}
+
+.footer button {
+    width: 18%;
+}
+
+/* Chat */
+
+.content {
+    height: 76vh;
+    margin-top: 8px;
+    border: 1px solid #EDF1F7;
+    border-radius: 10px;
+    padding: 4px;
+    overflow: auto;
+}
+
+/* Message */
+
+.message {
+    margin-bottom: 8px;
+}
+
+.sender {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+
+.message-body {
+    font-size: 20px;
+}
+
+
+/*__Media queries__*/
+
+@media screen and (max-width: 575px) {
+
+    /* Card */
+    .card {
+        width: 90%;
+        padding: 12px 16px;
+    }
+
+    /* Title */
+    h1 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    /* Input, Button */
+    button,
+    input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .footer input {
+        width: 76%;
+    }
+
+    .footer button {
+        width: 22%;
+        padding: 14px 0;
+    }
+
+    /* Message */
+    .sender {
+        font-size: 12px;
+    }
+
+    .message-body {
+        font-size: 16px;
+    }
+}
